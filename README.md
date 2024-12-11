@@ -1,2 +1,3 @@
-# CML_AMP_OpenWebUI-for-CML-AI-Inference
-OpenWebUI for CML AI Inference Service
+# AMP for Open WebUI on the CML AI Inference Service
+
+![](/catalog-icon.png)

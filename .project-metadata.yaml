@@ -1,0 +1,27 @@
+name: Open WebUI
+description: Run the Open WebUI within Cloudera AI Workbench
+author: Cloudera Inc.
+specification_version: 1.0
+prototype_version: 1.0
+date: "2024-12-04"
+
+runtimes:
+  - editor: PBJ Workbench
+    kernel: Python 3.11
+    edition: Standard
+
+tasks:
+  - type: run_session
+    name: Install Dependencies
+    script: install_dependencies.py
+    kernel: python3
+    cpu: 2
+    memory: 8
+
+  - type: start_application
+    name: Open WebUI
+    subdomain: open-webui
+    script: run_app.py
+    short_summary: Start Open WebUI application
+    environment_variables:
+      TASK_TYPE: START_APPLICATION
