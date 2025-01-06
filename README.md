@@ -34,11 +34,21 @@ Deploy from the AMP catalog as shown below. If you do not see it in the communit
 Enter the required base URL for your inference service instance. You can locate this by navigating to the Model Endpoints in CML as shown below and copy/paste this into the variable slot in the AMP deployment window.
 ![](/assets/model-endpoints.png)
 
+Select the "Copy" icon to copy the URL.
 ![](/assets/model-endpoints-details.png)
 
+As shown in the example below and on the deployment, paste it as the AMP variable and deploy the AMP.
 ![](/assets/amp-deployment-3.png)
+
+After the AMP is deployed, either click "Open" or navigate to the Applications tab of the project to open the application there.
 
 ![](/assets/amp-deployment-4.png)
 
 ## Usage
+This was tested using the modern runtime below on the most recent version at the time, `2024.10`.
+```yaml
+   - editor: PBJ Workbench
+   - kernel: Python 3.11
+   - edition: Standard
+```
 
