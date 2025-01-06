@@ -1,6 +1,6 @@
 # AMP for Open WebUI with the CML AI Inference Service
 
-![](/catalog-icon.png)
+![](/assets/catalog-icon.png)
 
 ## Overview
 
